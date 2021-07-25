@@ -5,6 +5,8 @@ the 'hot' innings of a team.
 I used the MLB StatsAPI from https://pypi.org/project/MLB-StatsAPI/
 using the "pip install MLB-StatsAPI" command.
 
+------------------------------------------------------------------------------
+
 - After downloading -
 From the command line you can:
 
@@ -21,24 +23,28 @@ Just run it from your IDE. Delete the 'arg.start_date' and other args
 from the CL and put in strings. The 'main' is at the bottom in the try except.
 The main function is boxscore_data.
 
-Team names are spelt specifically with proper case. Look at "teams_and_ids.py"
+----------------------------------------------------------------------------------------
+
+                                  General Details
+
+* Team names are spelt specifically with proper case. Look at "teams_and_ids.py"
 ex "New York Yankees", "St. Louis Cardinals", "Los Angeles Angels", "Oakland Athletics"
 
 The columns in the exported DataFrame are:
 
--game id: the id the mlbstats api gives this specific game. you can use it in
-other functions as well
+      -game id: the id the mlbstats api gives this specific game. you can use it in
+      other functions as well
 
--date: date game was played
+      -date: date game was played
 
--team: full team name
+      -team: full team name
 
--opp: opposing team at that game
+      -opp: opposing team at that game
 
--H: Home or Away. If "Y" the team was home for this game. If "N" they were away.
+      -H: Home or Away. If "Y" the team was home for this game. If "N" they were away.
 
--DBH: "Y" or "N" if this game was a double header. "S" is a double header
-just a "split-admission" double header
+      -DBH: "Y" or "N" if this game was a double header. "S" is a double header
+      just a "split-admission" double header
 
--Innings (1-#) - one through max innings. Not all teams reach the max inning played of
-another teams, thus they'll have zeros in those extra columns.
+      -Innings (1-#) - one through max innings. Not all teams reach the max inning played of
+      another teams, thus they'll have zeros in those extra columns.
