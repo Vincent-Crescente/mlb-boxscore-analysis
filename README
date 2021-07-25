@@ -5,6 +5,10 @@ the 'hot' innings of a team.
 I used the MLB StatsAPI from https://pypi.org/project/MLB-StatsAPI/
 using the "pip install MLB-StatsAPI" command.
 
+There are two functions one for all teams one for a specific team:
+boxscore_data_all_teams.py
+boxscore_data_one_team.py
+
 ------------------------------------------------------------------------------
 
 - After downloading -
