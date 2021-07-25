@@ -76,4 +76,4 @@ try:
     boxscore_data(args.team, schedule, args.folder_path)
 
 except:
-    print("Error with parameters according to the data service. Please use command 'python boxscore_data_xlsx_one_team.py -h' for more insight on the parameter and function use.")
+    print("Error with parameters according to the data service. Please use command 'python boxscore_data_one_team.py -h' for more insight on the parameter and function use.")

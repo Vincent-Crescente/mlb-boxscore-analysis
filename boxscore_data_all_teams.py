@@ -80,4 +80,4 @@ try:
     final_df.to_excel(args.folder_path + f"all_mlb_teams.xlsx")
 
 except:
-    print("Error with parameters according to the data service. Please use command 'python boxscore_data_xlsx_one_team.py -h' for more insight on the parameter and function use.")
+    print("Error with parameters according to the data service. Please use command 'python boxscore_data_one_team.py -h' for more insight on the parameter and function use.")
